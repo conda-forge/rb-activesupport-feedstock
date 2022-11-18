@@ -1,5 +1,5 @@
 {% set name = "activesupport" %}
-{% set version = "4.2.11.1" %}
+{% set version = "4.2.11.2" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-  sha256: 264782453d1912cf99f80b6bbf3f2e0e0592874e740e2c66f4dbad02903a78ed
+  sha256: 8458080bf7b674992d4f1b34b07172665ed77808c85e173977133bee81cba99b
 
 build:
   noarch: generic
@@ -37,7 +37,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: {{ name }}-{{ version }}/MIT-LICENSE
-  summary: A toolkit of support libraries and Ruby core extensions extracted from the Rails framework. 
+  summary: A toolkit of support libraries and Ruby core extensions extracted from the Rails framework.
 
   doc_url: https://www.rubydoc.info/gems/{{ name }}
 
